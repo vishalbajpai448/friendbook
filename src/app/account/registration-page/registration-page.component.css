@@ -1,0 +1,8 @@
+.registerUser
+{
+    display:flex;
+    margin:auto;
+    width:300px;
+    margin-top:20px;
+    flex-direction:column;
+}

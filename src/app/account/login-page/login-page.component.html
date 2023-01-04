@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="loginUser">
+        <h3>Login Page</h3>
+        <form #loginUser="ngForm" (submit)="userLogin(loginUser.value)">
+            <div class="form-field">
+                <label for="username">User Name</label>
+                <input type="email" id="username" ngModel name="email">
+            </div>
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" ngModel>
+            </div>
+            <div class="form-field">
+                <button class="btn btn-primary">Login</button>
+            </div>
+        </form>
+        <h6>Forget Password?Click here to reset</h6>
+    </div>
+</div>
+
+

@@ -1,0 +1,27 @@
+<div class="container">
+    <div class="registerUser">
+        <h3>Registration Page</h3>
+        <form #registerUser="ngForm" (submit)="userRegistered(registerUser.value)">
+            <div class="form-field">
+                <label for="firstName">First Name</label>
+                <input type="text" id="firstName" name ngModel name="firstName">
+            </div>
+            <div class="form-field">
+                <label for="lastName">Last Name</label>
+                <input type="text" id="lastName" ngModel name="lastName">
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="text" id="email" ngModel name="email">
+            </div>
+            <div class="form-field">
+                <label for="password">Password</label>
+                <input type="text" id="password" ngModel name="password">
+            </div>
+            <div class="form-field">
+                <button class="btn btn-primary">Register</button>
+            </div>
+        </form>
+    </div>
+</div>
+
